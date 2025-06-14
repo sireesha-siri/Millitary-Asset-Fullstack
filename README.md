@@ -1,77 +1,111 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# 🛡️ Military Asset Management Dashboard
 
-## Project info
+A full-stack web application for managing military assets like weapons, vehicles, and ammunition across various bases. Built with React for the frontend and Node.js, Express.js, and SQLite for the backend.
 
-**URL**: https://lovable.dev/projects/84653f57-02c2-4c72-b566-7d57bd73495a
+## 📌 Features
 
-## How can I edit this code?
+- 🔐 Role-Based Access Control (RBAC)
+- 🗃️ Asset tracking (Weapons, Vehicles, Ammunition)
+- 🛒 Purchase recording
+- 🔄 Asset transfer between bases
+- 👥 Assignment of assets to personnel
+- 📊 Dashboard with filters and visual metrics
+- 🧾 Activity logging for auditing
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
 
-**Use Lovable**
+| Area        | Tech                                |
+|-------------|-------------------------------------|
+| Frontend    | React, Tailwind CSS, Axios          |
+| Backend     | Node.js, Express.js, SQLite         |
+| Tools       | Git, Render (Deployment), Postman   |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/84653f57-02c2-4c72-b566-7d57bd73495a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Installation
 
-**Use your preferred IDE**
+### 1. Clone the Repository
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+git clone https://github.com/sireesha-siri/Millitary-Asset-Fullstack.git
+cd Millitary-Asset-Fullstack
+🔙 Backend Setup
+bash
+Copy
+Edit
+cd backend
+npm install
+node server.js
+Make sure military.db is correctly located in the db/ folder.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📁 Backend Folder Structure
+pgsql
+Copy
+Edit
+backend/
+├── db/
+│   └── military.db
+├── routes/
+│   └── users.js
+├── controllers/
+│   └── usersController.js
+├── server.js
+🌐 Frontend Setup
+bash
+Copy
+Edit
+cd frontend
+npm install
+npm start
+The app should now be running on http://localhost:3000.
 
-Follow these steps:
+📁 Frontend Folder Structure
+pgsql
+Copy
+Edit
+frontend/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── App.js
+├── public/
+│   └── index.html
+🔗 API Endpoints
+Method	Endpoint	Description
+GET	/users	Get list of users
+POST	/users	Add new user
+PUT	/users/:id	Update user info
+DELETE	/users/:id	Remove user from system
+...	More Coming Soon	As the app evolves
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+More routes for assets, purchases, and transfers are to be added.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+⚙️ Deployment
+Frontend hosted on Render/Vercel
 
-# Step 3: Install the necessary dependencies.
-npm i
+Backend deployed on Render
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+SQLite used as lightweight embedded DB
 
-**Edit a file directly in GitHub**
+🎥 Demo
+📹 Screen Recording Drive Link
+🌐 Live Project Link (#https://aguru-sireeshas-millitary-asset-ful.vercel.app/login)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🙋‍♀️ Developer
+Aguru Sireesha
 
-**Use GitHub Codespaces**
+📧 a.sireesha531@gmail.com
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+💼 LinkedIn
 
-## What technologies are used for this project?
+💻 GitHub
 
-This project is built with:
+❓ Queries & Issues
+If you face deployment issues or backend errors:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Ensure military.db is present.
 
-## How can I deploy this project?
+Delete node_modules, run npm install again.
 
-Simply open [Lovable](https://lovable.dev/projects/84653f57-02c2-4c72-b566-7d57bd73495a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# Millitary-Asset-Fullstack
->>>>>>> 192ac42997b9a1e13225f9d4e214c221e3f209c5
+On Windows, Visual Studio with C++ is required for sqlite3.
