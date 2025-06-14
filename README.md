@@ -1,5 +1,7 @@
 # 🛡️ Military Asset Management Dashboard
 
+🌐 [Live Project Link](https://aguru-sireeshas-millitary-asset-ful.vercel.app/login)
+
 A full-stack web application for managing military assets like weapons, vehicles, and ammunition across various bases. Built with React for the frontend and Node.js, Express.js, and SQLite for the backend.
 
 ## 📌 Features
@@ -90,8 +92,6 @@ SQLite used as lightweight embedded DB
 
 🎥 Demo
 📹 Screen Recording Drive Link
-🌐 [Live Project Link](https://aguru-sireeshas-millitary-asset-ful.vercel.app/login)
-[Create React App](https://github.com/facebook/create-react-app)
 
 🙋‍♀️ Developer
 Aguru Sireesha
