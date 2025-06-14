@@ -90,7 +90,7 @@ SQLite used as lightweight embedded DB
 
 🎥 Demo
 📹 Screen Recording Drive Link
-🌐 (Live Project Link)[https://aguru-sireeshas-millitary-asset-ful.vercel.app/login]
+🌐 [Live Project Link](https://aguru-sireeshas-millitary-asset-ful.vercel.app/login)
 
 🙋‍♀️ Developer
 Aguru Sireesha
